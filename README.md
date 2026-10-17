@@ -15,4 +15,4 @@
 - Main Harry Potter page
 - About.html
 
-Playable url: 
+Playable url: https://mumfali.github.io/Harry-Potter/
