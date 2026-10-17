@@ -1,0 +1,105 @@
+#head {
+    color: rgb(255, 0, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(44, 30, 30);
+    position: relative;
+    justify-items: center;
+    border-radius: 12px;
+    padding: 1px;
+
+}
+
+#head h3{
+    position: absolute;
+    left: 25px;
+    top: 16px;
+    text-decoration: none;
+    color: navajowhite;
+}
+
+#subHead {
+    color: blueviolet;
+    text-align: center;
+    margin-top: 56px;
+
+}
+
+#images {
+    text-align: center;
+}
+
+#character {
+    border-radius: 33px;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+    height: 380px;
+    width: 270px;
+}
+
+#clock {
+    
+    position: absolute;
+    right: 25px;
+    top: 50%;
+}
+
+#spells {
+    background-color: beige;
+    width: 270px;
+    height: 100px;
+    padding-bottom: 35px;
+    padding-top: 1px;
+    margin-bottom: 20px;
+    margin: 40px auto;
+    border-radius: 12px;
+    
+    
+    text-align: center;
+
+
+}
+
+#introBox {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: plum;
+    text-align: center;
+    border-radius: 12px;
+}
+
+#intro-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fav-show {
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 25px auto 0;
+    gap: 15px;
+
+    margin-bottom: 12px ;
+}
+
+#show-name {
+    
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+#show-btn {
+    cursor: pointer;
+    border-radius: 6%;
+    background-color: #9b59b6;
+    color: white;
+    font-size: 16px;
+}
